@@ -1,0 +1,6 @@
+{
+  "name": "District Fury",
+  "description": "Original 2D beat'em up / brawler game featuring 5 story stages, Bosses, Street Enemies, Upgrades, VS Lab mode, and responsive arcade combat.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

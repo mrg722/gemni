@@ -1,0 +1,306 @@
+{
+  "version": 4,
+  "description": "District Fury 120-frame high-fidelity character atlases",
+  "render_target": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60
+  },
+  "grid": [
+    12,
+    10
+  ],
+  "cell": [
+    128,
+    128
+  ],
+  "total_frames": 120,
+  "pivot": [
+    64,
+    116
+  ],
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk": {
+      "row": 1,
+      "frames": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "fps": 14,
+      "loop": true
+    },
+    "run_dash": {
+      "row": 2,
+      "frames": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "fps": 18,
+      "loop": false
+    },
+    "punch_light": {
+      "row": 3,
+      "frames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "fps": 16,
+      "loop": false
+    },
+    "punch_medium": {
+      "row": 4,
+      "frames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "fps": 16,
+      "loop": false
+    },
+    "punch_heavy": {
+      "row": 5,
+      "frames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "fps": 15,
+      "loop": false
+    },
+    "kick": {
+      "row": 6,
+      "frames": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "fps": 15,
+      "loop": false
+    },
+    "energy_wave": {
+      "row": 7,
+      "frames": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "fps": 14,
+      "loop": false
+    },
+    "block_hurt": {
+      "row": 8,
+      "frames": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "fps": 14,
+      "loop": false
+    },
+    "knockdown_defeat": {
+      "row": 9,
+      "frames": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "fps": 12,
+      "loop": false
+    }
+  },
+  "characters": [
+    {
+      "id": "rayden",
+      "name": "Rayden Cruz",
+      "scale": 1,
+      "atlas_path": "assets/atlases_120/rayden_120.png"
+    },
+    {
+      "id": "rayder_clone",
+      "name": "Rayder Clone",
+      "scale": 1.05,
+      "atlas_path": "assets/atlases_120/rayder_clone_120.png"
+    },
+    {
+      "id": "punk",
+      "name": "Punk",
+      "scale": 0.95,
+      "atlas_path": "assets/atlases_120/punk_120.png"
+    },
+    {
+      "id": "brute",
+      "name": "Brute",
+      "scale": 1.25,
+      "atlas_path": "assets/atlases_120/brute_120.png"
+    },
+    {
+      "id": "charger",
+      "name": "Charger",
+      "scale": 1,
+      "atlas_path": "assets/atlases_120/charger_120.png"
+    },
+    {
+      "id": "enforcer",
+      "name": "Enforcer",
+      "scale": 1.15,
+      "atlas_path": "assets/atlases_120/enforcer_120.png"
+    },
+    {
+      "id": "chemical_soldier",
+      "name": "Chemical Soldier",
+      "scale": 1.1,
+      "atlas_path": "assets/atlases_120/chemical_soldier_120.png"
+    },
+    {
+      "id": "urban_ninja",
+      "name": "Urban Ninja",
+      "scale": 0.98,
+      "atlas_path": "assets/atlases_120/urban_ninja_120.png"
+    },
+    {
+      "id": "mutant",
+      "name": "Mutant",
+      "scale": 1.3,
+      "atlas_path": "assets/atlases_120/mutant_120.png"
+    },
+    {
+      "id": "armored_guard",
+      "name": "Armored Guard",
+      "scale": 1.25,
+      "atlas_path": "assets/atlases_120/armored_guard_120.png"
+    },
+    {
+      "id": "brakk",
+      "name": "Brakk",
+      "scale": 1.35,
+      "atlas_path": "assets/atlases_120/brakk_120.png"
+    },
+    {
+      "id": "grinder",
+      "name": "Grinder",
+      "scale": 1.25,
+      "atlas_path": "assets/atlases_120/grinder_120.png"
+    },
+    {
+      "id": "titanx",
+      "name": "Titan-X",
+      "scale": 1.35,
+      "atlas_path": "assets/atlases_120/titanx_120.png"
+    },
+    {
+      "id": "titanx_mejorado",
+      "name": "Titan-X Mejorado",
+      "scale": 1.5,
+      "atlas_path": "assets/atlases_120/titanx_mejorado_120.png"
+    },
+    {
+      "id": "kessler",
+      "name": "Dr. Kessler",
+      "scale": 0.95,
+      "atlas_path": "assets/atlases_120/kessler_120.png"
+    }
+  ]
+}
